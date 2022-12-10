@@ -32,7 +32,7 @@ def calculate():
         messagebox.showinfo('Внимание', 'Нужно вводить только цифры! Вы ввели другие символы.')
         calc.insert(0, 0)
     except ZeroDivisionError:
-        messagebox.showinfo('Внимание', 'Ты чего делаешь? На ноль делить нельзя!')
+        messagebox.showinfo('Внимание', 'На ноль делить нельзя!')
         calc.insert(0, 0)
 
 
